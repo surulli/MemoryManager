@@ -1,7 +1,13 @@
 #ifndef MEMORY_MANAGER_HPP
 #define MEMORY_MANAGER_HPP
 
-#include "BaseUtility.hpp"
+#include <windows.h>
+#include <tlhelp32.h>
+#include <string>
+#include <stdexcept>
+#include <iostream>
+#include <optional>
+#include <vector>
 
 class MemoryManager {
 private:
